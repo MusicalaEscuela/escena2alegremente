@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlegreMente 2025 · Escena 2</title>
+  <meta name="description" content="Guía completa para aprender y montar la Escena 2: Buenos Aires del alma / Mango Tango." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Barra superior -->
+<header class="top">
+  <div class="topbar wrap">
+    <div class="brand">
+      <img src="logo.jpg" alt="Logo Musicala" width="36" height="36" style="border-radius:10px; object-fit:cover" />
+      <div>
+        <h1>AlegreMente 2025 · Guía de Escena</h1>
+        <small class="muted">Escena 2 · Buenos Aires del alma / Mango Tango</small>
+      </div>
+    </div>
+    <a class="btn-back" href="index.html">⬅ Volver al menú</a>
+  </div>
+</header>
+
+<!-- Reproductor -->
+<div class="playerbar">
+  <div class="player wrap">
+    <label for="sceneAudio">🎶 Audio: “Mango Tango”</label>
+    <audio id="sceneAudio" preload="auto" controls playsinline></audio>
+    <button id="btnPlay" class="btn" title="Reproducir / Pausar">▶ Reproducir</button>
+  </div>
+</div>
+
+<!-- Filtros -->
+<div class="filters">
+  <div class="wrap">
+    <div class="filter-group" id="grp-areas">
+      <h4>Arte</h4>
+      <span class="chip" data-type="area" data-area="teatro">Teatro</span>
+      <span class="chip" data-type="area" data-area="musica">Música/Orquesta</span>
+      <span class="chip" data-type="area" data-area="plastica">Artes plásticas</span>
+      <span class="chip" data-type="area" data-area="danza">Danza</span>
+      <span class="chip" data-type="area" data-area="luces">Luces</span>
+      <span class="chip" data-type="area" data-area="produccion">Producción/Logística</span>
+    </div>
+
+    <div class="filter-group" id="grp-centros">
+      <h4>Centro</h4>
+      <span class="chip" data-type="centro" data-centro="lucero">Lucero</span>
+      <span class="chip" data-type="centro" data-centro="arroyo">Arroyo</span>
+      <span class="chip" data-type="centro" data-centro="jerusalen">Jerusalén</span>
+    </div>
+
+    <div class="filter-group" id="grp-log">
+      <h4>Logística</h4>
+      <span class="chip" data-type="log" data-log="vestuario">Vestuario</span>
+      <span class="chip" data-type="log" data-log="materiales">Materiales plásticos</span>
+      <span class="chip" data-type="log" data-log="proyeccion">Proyección</span>
+      <span class="chip" data-type="log" data-log="luces">Luces</span>
+    </div>
+
+    <div class="toolbar">
+      <div class="search">
+        <input id="q" type="search" placeholder="Buscar en la escena…" aria-label="Buscar" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <!-- Imagen principal -->
+  <div class="hero">
+    <img src="Escena 2.jpg" alt="Escena 2: Buenos Aires del alma / Mango Tango" />
+  </div>
+
+  <div class="grid">
+    <!-- COLUMNA PRINCIPAL -->
+    <section>
+      <!-- Resumen -->
+      <div class="card" data-tags="general produccion" data-centros="lucero arroyo jerusalen">
+        <header onclick="toggle(this)"><h2>Resumen en 30 segundos</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <p>Sofía recupera su voz, pero aún le falta alegría. El viento la empuja y se siente desconectada. Una niña le entrega una flor amarilla y la invita a reír. La música <em>“Mango Tango”</em> enciende el ritmo, y Sofía empieza a bailar y reír junto a los demás.</p>
+          <div class="tools">
+            <span class="pill">Duración: 6–8 min</span>
+            <span class="pill">Lenguajes: Teatro · Danza · Artes Plásticas</span>
+            <span class="pill">Música: Orquesta</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Propósito -->
+      <div class="card" data-tags="general" data-centros="lucero arroyo jerusalen">
+        <header onclick="toggle(this)"><h2>🎯 Propósito pedagógico</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ul>
+            <li><strong>Valorar</strong> la alegría y la risa como formas de resiliencia.</li>
+            <li><strong>Reconocer</strong> el arte y la danza como caminos para la conexión emocional.</li>
+            <li><strong>Participar</strong> en dinámicas grupales alegres y respetuosas.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Acción -->
+      <div class="card" data-tags="teatro danza" data-centros="lucero arroyo">
+        <header onclick="toggle(this)"><h2>🎭 Acción paso a paso</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ol>
+            <li>Sofía entra en un espacio movido por el viento.</li>
+            <li>Niños bailan con telas livianas, Sofía no logra unirse.</li>
+            <li>Una niña le ofrece una <b>flor amarilla</b> y la invita a reír.</li>
+            <li>Sofía sonríe, la música “Mango Tango” inicia.</li>
+            <li>Sofía comienza a bailar, al inicio tímida, luego alegre y libre.</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Plástica -->
+      <div class="card" data-tags="plastica produccion" data-centros="jerusalen" data-log="materiales proyeccion">
+        <header onclick="toggle(this)"><h2>🎨 Imagen plástica en escena</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ul>
+            <li><strong>Escenario:</strong> banderines coloridos colgando del techo.</li>
+            <li><strong>Viento:</strong> telas azules y abanicos que mueven papeles y flores.</li>
+            <li><strong>Elemento central:</strong> <em>flor amarilla grande</em> (cartón y papel crepé).</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Luces -->
+      <div class="card" data-tags="luces tecnica" data-centros="jerusalen" data-log="luces">
+        <header onclick="toggle(this)"><h2>🎛️ Luces y transiciones</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <table>
+            <thead><tr><th>Cue</th><th>Estado</th><th>Detalle</th></tr></thead>
+            <tbody>
+              <tr><td><b>L1 – Inicio</b></td><td>Luz azul suave</td><td>Escenario con viento y movimiento.</td></tr>
+              <tr><td><b>L2 – Flor</b></td><td>Spot cálido</td><td>Cuando Sofía recibe la flor amarilla.</td></tr>
+              <tr><td><b>L3 – Danza</b></td><td>Colores cálidos</td><td>Inicio del Mango Tango.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Checklist -->
+      <div class="card" data-tags="general produccion tecnica danza teatro plastica musica" data-centros="lucero arroyo jerusalen" data-log="vestuario luces materiales proyeccion">
+        <header onclick="toggle(this)"><h2>✅ Checklist</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ul id="check-escena2">
+            <li>[ ] Flor amarilla lista.</li>
+            <li>[ ] Banderines coloridos colgados.</li>
+            <li>[ ] Telas azules y abanicos listos.</li>
+            <li>[ ] Ensayo de música “Mango Tango”.</li>
+            <li>[ ] Roles asignados (Sofía, niña de la flor, bailarines).</li>
+          </ul>
+          <div class="actions">
+            <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLUMNA LATERAL -->
+    <aside>
+      <div class="card" data-tags="produccion" data-centros="lucero arroyo jerusalen">
+        <header onclick="toggle(this)"><h2>👥 Centros y responsables</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ul>
+            <li><b>Teatro:</b> Lucero</li>
+            <li><b>Danza:</b> Arroyo</li>
+            <li><b>Plástica:</b> Jerusalén</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card" data-tags="produccion plastica" data-centros="jerusalen" data-log="materiales vestuario proyeccion">
+        <header onclick="toggle(this)"><h2>📦 Materiales clave</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ul>
+            <li>Flor amarilla (cartón, papel crepé, escarcha).</li>
+            <li>Banderines ilustrados por los niños.</li>
+            <li>Telas azules y abanicos.</li>
+            <li>Vestuario: Sofía (blanco con tocado de flores), niños (camisa blanca y corbatín negro), niñas (vestido azul).</li>
+          </ul>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Botón volver -->
+  <div class="wrap center">
+    <a class="btn-back" href="index.html">⬅ Volver al menú</a>
+  </div>
+
+  <div class="footer">AlegreMente 2025 · Escena 2 · Guía práctica para todo público</div>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
