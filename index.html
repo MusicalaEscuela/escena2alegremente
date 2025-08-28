@@ -13,7 +13,7 @@
 <header class="top">
   <div class="topbar wrap">
     <div class="brand">
-      <img src="logo.jpg" alt="Logo Musicala" width="36" height="36" style="border-radius:10px; object-fit:cover" />
+      <img src="logo.jpg" alt="Logo Musicala" width="36" height="36" style="border-radius:10px;object-fit:cover" />
       <div>
         <h1>AlegreMente 2025 · Guía de Escena</h1>
         <small class="muted">Escena 2 · Buenos Aires del alma / Mango Tango</small>
@@ -48,7 +48,7 @@
     <div class="filter-group" id="grp-centros">
       <h4>Centro</h4>
       <span class="chip" data-type="centro" data-centro="arroyo">Arroyo</span>
-      <span class="chip" data-type="centro" data-centro="arroyo">Arroyo</span>
+      <span class="chip" data-type="centro" data-centro="lucero">Lucero</span>
       <span class="chip" data-type="centro" data-centro="jerusalen">Jerusalén</span>
     </div>
 
@@ -72,6 +72,40 @@
   <!-- Imagen principal -->
   <div class="hero">
     <img src="Escena 2.jpg" alt="Escena 2: Buenos Aires del alma / Mango Tango" />
+  </div>
+
+  <!-- RECURSOS (se llena con JS) -->
+  <div class="card" data-tags="general produccion musica teatro plastica" data-centros="lucero arroyo jerusalen">
+    <header onclick="toggle(this)"><h2>🔗 Recursos de la escena</h2><span class="caret">Contraer</span></header>
+    <div class="content">
+      <ul id="res-list"></ul>
+    </div>
+  </div>
+
+  <!-- VISOR DE GUION -->
+  <div class="card" data-tags="teatro produccion" data-centros="lucero arroyo jerusalen">
+    <header onclick="toggle(this)"><h2>📄 Guion – Escena 2</h2><span class="caret">Contraer</span></header>
+    <div class="content">
+      <div class="actions">
+        <a id="pdfView" class="btn" target="_blank" rel="noreferrer">👁️ Abrir en pestaña</a>
+        <a id="pdfDownload" class="btn" download>⬇️ Descargar</a>
+      </div>
+      <iframe id="pdfFrame" class="pdf-frame" title="Guion Escena 2"></iframe>
+      <div id="pdfFallback" class="note" style="display:none">No se pudo incrustar el PDF. Usa los botones de arriba para abrirlo o descargarlo.</div>
+    </div>
+  </div>
+
+  <!-- (OPCIONAL) VISOR DE PARTITURA – se ocultará solo si no existe -->
+  <div class="card" data-tags="musica produccion" data-centros="lucero arroyo jerusalen" id="partituraCard">
+    <header onclick="toggle(this)"><h2>🎼 Partitura – Mango Tango</h2><span class="caret">Contraer</span></header>
+    <div class="content">
+      <div class="actions">
+        <a id="pdfViewPart" class="btn" target="_blank" rel="noreferrer">👁️ Abrir en pestaña</a>
+        <a id="pdfDownloadPart" class="btn" download>⬇️ Descargar</a>
+      </div>
+      <iframe id="pdfFramePart" class="pdf-frame" title="Partitura Mango Tango"></iframe>
+      <div id="pdfFallbackPart" class="note" style="display:none">No se encontró la partitura en PDF (opcional).</div>
+    </div>
   </div>
 
   <div class="grid">
@@ -164,6 +198,24 @@
     <!-- COLUMNA LATERAL -->
     <aside>
       <div class="card" data-tags="produccion" data-centros="lucero arroyo jerusalen">
+        <header onclick="toggle(this)"><h2>👥 Docentes relacionados</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <ul id="teachers-list" class="teacher-list"></ul>
+        </div>
+      </div>
+
+      <div class="card" data-tags="produccion" data-centros="lucero arroyo jerusalen">
+        <header onclick="toggle(this)"><h2>🖼️ Galería / Arte de escena</h2><span class="caret">Contraer</span></header>
+        <div class="content">
+          <div class="asset-grid">
+            <a href="Escena 2.jpg" data-preview><img src="Escena 2.jpg" alt="Arte escena 2"></a>
+            <a href="Fondo 2.jpg" data-preview><img src="Fondo 2.jpg" alt="Fondo escena 2"></a>
+          </div>
+          <div class="note">Toca una imagen para verla en grande.</div>
+        </div>
+      </div>
+
+      <div class="card" data-tags="produccion" data-centros="lucero arroyo jerusalen">
         <header onclick="toggle(this)"><h2>👥 Centros y responsables</h2><span class="caret">Contraer</span></header>
         <div class="content">
           <ul>
@@ -199,6 +251,3 @@
 <script src="script.js" defer></script>
 </body>
 </html>
-
-
-
