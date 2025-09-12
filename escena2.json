@@ -45,7 +45,7 @@
     ]
   },
   "luces": [
-    { "Cue": "<b>L1 – Inicio</b>", "Estado": "Luz azul suave", "Detalle": "Escenario con viento y movimiento." },
+    { "Cue": "<b>L1 – Inicio</b>", "Estado": "Luz azul suave y de colores por todo el escenario", "Detalle": "Escenario con viento y movimiento." },
     { "Cue": "<b>L2 – Flor</b>",   "Estado": "Spot cálido", "Detalle": "Cuando Sofía recibe la flor amarilla." },
     { "Cue": "<b>L3 – Danza</b>",  "Estado": "Colores cálidos", "Detalle": "Inicio del Mango Tango." }
   ],
