@@ -69,8 +69,10 @@
   "escenario": {
     "images": [
       { "title": "Arte escena 2", "src": "Escena 2.jpg", "alt": "Arte de Escena 2" },
-      { "title": "Banderines", "src": "banderines.jpg", "alt": "Banderines artesanales" },
-      { "title": "Flor", "src": "flor.jpg", "alt": "Flor amarilla grande" }
+      { "title": "Banderines", "src": "banderines.png", "alt": "Banderines artesanales" },
+      { "title": "Ramillete", "src": "ramillete.jpeg", "alt": "Flor amarilla grande" },
+      { "title": "Mesa", "src": "mesa.jpg", "alt": "Mesa" },
+      { "title": "Silla", "src": "silla.jpg", "alt": "Silla" }
     ]
   },
   "checklist": [
