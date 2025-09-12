@@ -41,9 +41,7 @@
       "<strong>Elemento central:</strong> flor amarilla grande (cartón y papel crepé)."
     ],
     "assets": [
-      { "src": "banderines.jpg" },
-      { "src": "flor.jpg" },
-      { "src": "Luna.jpg" }
+      { "src": "Fondo 2.jpg" }
     ]
   },
   "luces": [
@@ -63,17 +61,14 @@
       {"title":"Tocado 1","src":"tocado1.jpg","file":"tocado1.jpg"},
       {"title":"Tocado 2","src":"tocado2.jpg","file":"tocado2.jpg"},
       {"title":"Vestido Sofía","src":"sofiavestido.jpg","file":"sofiavestido.jpg"},
-      {"title":"Vestido niños (opción 1)","src":"vestidoniño1.jpg","file":"vestidoniño1.jpg"},
-      {"title":"Vestido niños (opción 2)","src":"vestidoniño2.jpg","file":"vestidoniño2.jpg"},
-      {"title":"Vestido niñas (opción 1)","src":"vestidoniña1.jpg","file":"vestidoniña1.jpg"},
-      {"title":"Vestido niñas (opción 2)","src":"vestidoniña2.jpg","file":"vestidoniña2.jpg"},
+      {"title":"Vestido niños (opción 1)","src":"vestidoniños.jpg","file":"vestidoniño1.jpg"},
+      {"title":"Vestido niñas (opción 1)","src":"vestidoniñas.jpg","file":"vestidoniña1.jpg"},
       {"title":"Vestido blanco","src":"vestido.jpg","file":"vestido.jpg"}
     ]
   },
   "escenario": {
     "images": [
       { "title": "Arte escena 2", "src": "Escena 2.jpg", "alt": "Arte de Escena 2" },
-      { "title": "Fondo 2", "src": "Fondo 2.jpg", "alt": "Fondo de escena 2" },
       { "title": "Banderines", "src": "banderines.jpg", "alt": "Banderines artesanales" },
       { "title": "Flor", "src": "flor.jpg", "alt": "Flor amarilla grande" }
     ]
@@ -118,4 +113,3 @@
     {"term":"strobe","def":"luz intermitente (usar con precaución)"}
   ]
 }
-
