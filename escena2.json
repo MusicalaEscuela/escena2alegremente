@@ -14,7 +14,7 @@
   },
   "filters": {
     "areas": ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
-    "centros": ["arroyo", "jerusalen"],
+    "centros": ["arroyo", "lucero", "jerusalen"],
     "log": ["vestuario", "sonido", "diademas", "amplificacion-coro", "orquesta", "proyeccion", "materiales", "luces"]
   },
   "resumen": {
@@ -87,8 +87,8 @@
     "partitura": "Mango Tango Partitura.pdf"
   },
   "centros": {
-    "items": ["<b>Teatro:</b> Arroyo","<b>Danza:</b> Arroyo", "<b>Artes plásticas:</b> Jerusalén"],
-    "docentesText": "Docentes responsables: Eryck Martínez, Erika López, Santiago Gutiérrez"
+    "items": ["<b>Teatro:</b> Lucero", "<b>Danza:</b> Arroyo", "<b>Artes plásticas:</b> Jerusalén"],
+    "docentesText": "Docentes responsables: Angie Nitola, Erika López, Santiago Gutiérrez"
   },
   "materiales": [
     "Flor amarilla (cartón, papel crepé, escarcha). <span class='pill'>materiales</span>",
@@ -104,7 +104,7 @@
   "docentes": {
     "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
     "items": [
-      { "name": "Eryck Martínez", "url": "docentes/angie.html", "areas": ["teatro"] },
+      { "name": "Angie Nitola", "url": "docentes/angie.html", "areas": ["teatro"] },
       { "name": "Erika López", "url": "docentes/erika.html", "areas": ["danza"] },
       { "name": "Santiago Gutiérrez", "url": "docentes/santiago.html", "areas": ["plastica"] }
     ]
@@ -121,6 +121,13 @@
       "areas": ["danza"],
       "icon": "🎧"
     }
+  ],
+  "videos": [
+    {
+      "title": "Ensayo Teatro Arroyo (19 Sep)",
+      "href": "https://youtu.be/CoqDlOoZHmA",
+      "areas": ["teatro"],
+      "icon": "▶️"
+    }
   ]
 }
-
