@@ -5,76 +5,94 @@
     "footer": "AlegreMente 2025 · Escena 2 · Guía práctica",
     "images": {
       "hero": "Escena 2.jpg",
-      "heroAlt": "Escena 2 – Buenos Aires del alma / Mango Tango"
+      "heroAlt": "Escena 2 – Buenos Aires del alma / Mango Tango",
+      "logo": "logo.jpg"
     }
   },
+
   "audio": {
     "label": "🎶 Audio: “Mango Tango”",
-    "sources": ["Mango Tango.mp3", "mango-tango.mp3", "MangoTango.mp3"]
+    "sources": ["Mango Tango.mp3"],
+    "adicionales": [
+      { "title": "Danza · Tango Roxanne", "src": "DANZA ESCENA 2 Tango Roxanne.mp3" }
+    ]
   },
+
   "filters": {
     "areas": ["teatro", "musica", "danza", "plastica", "luces", "sonido", "produccion"],
     "centros": ["arroyo", "lucero", "jerusalen"],
     "log": ["vestuario", "sonido", "diademas", "amplificacion-coro", "orquesta", "proyeccion", "materiales", "luces"]
   },
+
   "resumen": {
-    "text": "Sofía recupera su voz, pero aún le falta alegría. El viento la mueve y se siente desconectada. Una niña le entrega una <em>flor amarilla</em> y la invita a reír. La música <em>Mango Tango</em> enciende el ritmo: Sofía comienza tímida y termina bailando libre y feliz.",
+    "text": "Sofía recupera su voz, pero le falta alegría. El viento la mueve y se siente desconectada. Una niña le entrega una <em>flor amarilla</em> y la invita a reír. Con <b>Mango Tango</b>, Sofía pasa de la timidez al baile libre.",
     "duration": "10 min",
     "tags": ["Teatro · Danza · Artes Plásticas", "Música: Orquesta"]
   },
+
   "proposito": [
     "<strong>Valorar</strong> la alegría y la risa como formas de resiliencia.",
     "<strong>Reconocer</strong> el arte y la danza como caminos para la conexión emocional.",
     "<strong>Participar</strong> en dinámicas grupales alegres y respetuosas."
   ],
+
   "pasos": [
     "Sofía entra en un espacio movido por el viento.",
     "Niños bailan con telas livianas; Sofía no logra unirse.",
     "Una niña le ofrece una <b>flor amarilla</b> e invita a reír.",
     "Sofía sonríe; inicia la música “Mango Tango”.",
-    "Sofía comienza a bailar: primero tímida, luego alegre y libre."
+    "Sofía baila: primero tímida, luego alegre y libre."
   ],
+
   "plastica": {
     "items": [
-      "<strong>Escenario:</strong> banderines coloridos colgando del techo.",
-      "<strong>Viento:</strong> telas azules y abanicos que mueven papeles y flores.",
-      "<strong>Elemento central:</strong> flor amarilla grande (cartón y papel crepé)."
+      "<strong>Escenario</strong>: banderines coloridos colgando del techo.",
+      "<strong>Viento</strong>: telas azules y abanicos que mueven papeles y flores.",
+      "<strong>Elemento central</strong>: flor amarilla grande (cartón y papel crepé)."
     ],
     "assets": [
-      { "src": "Fondo 2.jpg" }
+      { "src": "Fondo 2.jpg" },
+      { "src": "Escena 2.jpg" },
+      { "src": "logo.jpg" }
     ]
   },
+
   "luces": [
-    { "Cue": "<b>L1 – Inicio</b>", "Estado": "Luz azul suave y de colores por todo el escenario", "Detalle": "Escenario con viento y movimiento." },
-    { "Cue": "<b>L2 – Flor</b>", "Estado": "Spot cálido", "Detalle": "Cuando Sofía recibe la flor amarilla." },
-    { "Cue": "<b>L3 – Danza</b>", "Estado": "Colores cálidos", "Detalle": "Inicio del Mango Tango." }
+    { "Cue": "<b>L1 – Inicio</b>", "Estado": "Azul suave + colores en general", "Detalle": "Ambiente con viento y movimiento" },
+    { "Cue": "<b>L2 – Flor</b>", "Estado": "Spot cálido", "Detalle": "Sofía recibe la flor amarilla" },
+    { "Cue": "<b>L3 – Danza</b>", "Estado": "Cálidos vivos", "Detalle": "Arranque de Mango Tango" }
   ],
+
   "sonido": [
     "<b>Pista / guía:</b> “Mango Tango” (referencia orquesta).",
     "<b>Diademas inalámbricas:</b> según reparto (si aplica).",
     "<b>Amplificación de ensamble/coro:</b> microfonía y monitores según espacio.",
     "<b>Orquesta:</b> refuerzo según rider general.",
-    "<b>Proyección fondo:</b> coordinación audio–video para transiciones."
+    "<b>Coordinación A/V:</b> proyección de fondo y transiciones."
   ],
+
   "vestuario": {
     "images": [
       { "title": "Tocado 1", "src": "tocado1.jpg", "file": "tocado1.jpg" },
       { "title": "Tocado 2", "src": "tocado2.jpg", "file": "tocado2.jpg" },
       { "title": "Vestido Sofía", "src": "sofiavestido.jpg", "file": "sofiavestido.jpg" },
-      { "title": "Vestido niños (opción 1)", "src": "vestidoniños.jpg", "file": "vestidoniño1.jpg" },
-      { "title": "Vestido niñas (opción 1)", "src": "vestidoniñas.jpg", "file": "vestidoniña1.jpg" },
+      { "title": "Vestido niños (opción 1)", "src": "vestidoniños.jpg", "file": "vestidoniños.jpg" },
+      { "title": "Vestido niñas (opción 1)", "src": "vestidoniñas.jpg", "file": "vestidoniñas.jpg" },
       { "title": "Vestido blanco", "src": "vestido.jpg", "file": "vestido.jpg" }
     ]
   },
+
   "escenario": {
     "images": [
       { "title": "Arte escena 2", "src": "Escena 2.jpg", "alt": "Arte de Escena 2" },
       { "title": "Banderines", "src": "banderines.png", "alt": "Banderines artesanales" },
       { "title": "Ramillete", "src": "ramillete.jpeg", "alt": "Flor amarilla grande" },
       { "title": "Mesa", "src": "mesa.jpg", "alt": "Mesa" },
-      { "title": "Silla", "src": "silla.jpg", "alt": "Silla" }
+      { "title": "Silla", "src": "silla.jpg", "alt": "Silla" },
+      { "title": "Fondo 2", "src": "Fondo 2.jpg", "alt": "Fondo con viento y colores" }
     ]
   },
+
   "checklist": [
     "[ ] Flor amarilla lista.",
     "[ ] Banderines coloridos colgados.",
@@ -82,25 +100,36 @@
     "[ ] Ensayo de música “Mango Tango”.",
     "[ ] Roles asignados (Sofía, niña de la flor, bailarines)."
   ],
+
   "pdfs": {
     "guion": "Guión Escena II.pdf",
     "partitura": "Mango Tango Partitura.pdf"
   },
+
   "centros": {
-    "items": ["<b>Teatro:</b> Lucero", "<b>Danza:</b> Arroyo", "<b>Artes plásticas:</b> Jerusalén"],
+    "items": [
+      "<b>Teatro:</b> Lucero",
+      "<b>Danza:</b> Arroyo",
+      "<b>Artes plásticas:</b> Jerusalén"
+    ],
     "docentesText": "Docentes responsables: Angie Nitola, Erika López, Santiago Gutiérrez"
   },
+
   "materiales": [
     "Flor amarilla (cartón, papel crepé, escarcha). <span class='pill'>materiales</span>",
     "Banderines ilustrados por los niños. <span class='pill'>materiales</span>",
     "Telas azules y abanicos. <span class='pill'>materiales</span>",
-    "Vestuario: Sofía (blanco con tocado de flores), niños (camisa blanca y corbatín negro), niñas (vestido azul). <span class='pill'>vestuario</span>"
+    "Vestuario: Sofía blanco con tocado; niños camisa blanca/corbatín negro; niñas vestido azul. <span class='pill'>vestuario</span>"
   ],
+
   "recursos": [
     { "title": "Guión Escena II (PDF)", "href": "Guión Escena II.pdf", "areas": ["teatro", "produccion"], "icon": "📄" },
     { "title": "Partitura – Mango Tango (PDF)", "href": "Mango Tango Partitura.pdf", "areas": ["musica"], "icon": "🎼" },
-    { "title": "Pista – Mango Tango (MP3)", "href": "Mango Tango.mp3", "areas": ["musica"], "icon": "🎵" }
+    { "title": "Pista – Mango Tango (MP3)", "href": "Mango Tango.mp3", "areas": ["musica"], "icon": "🎵" },
+    { "title": "Danza – Tango Roxanne (MP3)", "href": "DANZA ESCENA 2 Tango Roxanne.mp3", "areas": ["danza"], "icon": "🎧" },
+    { "title": "Ensayo Teatro Arroyo (19 Sep)", "href": "https://youtu.be/CoqDlOoZHmA", "areas": ["teatro"], "icon": "▶️" }
   ],
+
   "docentes": {
     "hint": "Sugerencia: cada docente puede tener su mini guía con materiales y tareas.",
     "items": [
@@ -109,25 +138,38 @@
       { "name": "Santiago Gutiérrez", "url": "docentes/santiago.html", "areas": ["plastica"] }
     ]
   },
+
   "glosario": [
     { "term": "cue", "def": "orden/estado de luces o sonido" },
     { "term": "spot", "def": "luz puntual dirigida a una persona/objeto" },
     { "term": "strobe", "def": "luz intermitente (usar con precaución)" }
   ],
-  "pistas": [
-    {
-      "title": "Danza · Escena 2 — Tango Roxanne",
-      "href": "DANZA ESCENA 2 Tango Roxanne.mp3",
-      "areas": ["danza"],
-      "icon": "🎧"
-    }
-  ],
-  "videos": [
-    {
-      "title": "Ensayo Teatro Arroyo (19 Sep)",
-      "href": "https://youtu.be/CoqDlOoZHmA",
-      "areas": ["teatro"],
-      "icon": "▶️"
-    }
-  ]
+
+  "files": {
+    "images": [
+      "Escena 2.jpg",
+      "Fondo 2.jpg",
+      "banderines.png",
+      "ramillete.jpeg",
+      "mesa.jpg",
+      "silla.jpg",
+      "sofiavestido.jpg",
+      "vestidoniñas.jpg",
+      "vestidoniños.jpg",
+      "tocado1.jpg",
+      "tocado2.jpg",
+      "vestido.jpg",
+      "logo.jpg"
+    ],
+    "audio": [
+      "Mango Tango.mp3",
+      "DANZA ESCENA 2 Tango Roxanne.mp3"
+    ],
+    "docs": [
+      "Guión Escena II.pdf",
+      "Mango Tango Partitura.pdf"
+    ],
+    "code": ["index.html", "style.css", "script.js"],
+    "data": ["escena2.json"]
+  }
 }
