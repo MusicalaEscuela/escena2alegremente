@@ -108,7 +108,7 @@
 
   "centros": {
     "items": [
-      "<b>Teatro:</b> Lucero",
+      "<b>Teatro:</b> Arroyo",
       "<b>Danza:</b> Arroyo",
       "<b>Artes plásticas:</b> Jerusalén"
     ],
@@ -174,4 +174,5 @@
     "data": ["escena2.json"]
   }
 }
+
 
